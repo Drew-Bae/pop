@@ -10,7 +10,7 @@ import Foundation
 class FlashcardSet {
     var title: String = ""
     
-    func getHardCodedCollection() -> [FlashcardSet]
+    static func getHardCodedCollection() -> [FlashcardSet]
     {
         var sets = [FlashcardSet]()
         for i in 1...10

@@ -11,7 +11,7 @@ class Flashcard {
     var term: String = ""
     var definition: String = ""
     
-    func getHardCodedCollection() -> [Flashcard]
+    static func getHardCodedCollection() -> [Flashcard]
     {
         var flashcards = [Flashcard]()
         for i in 1...10

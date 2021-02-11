@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E419D7E625CB2F11002CFEB4 /* FlashcardSetCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419D7E525CB2F11002CFEB4 /* FlashcardSetCollectionCell.swift */; };
+		E419D7EE25CB384C002CFEB4 /* FlashcardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419D7ED25CB384C002CFEB4 /* FlashcardTableViewCell.swift */; };
 		E46D40CC25C4AD280062C79E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D40CB25C4AD280062C79E /* AppDelegate.swift */; };
 		E46D40CE25C4AD280062C79E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D40CD25C4AD280062C79E /* SceneDelegate.swift */; };
 		E46D40D025C4AD280062C79E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D40CF25C4AD280062C79E /* MainViewController.swift */; };
@@ -19,6 +20,7 @@
 		E46D40F125C4AD2A0062C79E /* CS422LUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D40F025C4AD2A0062C79E /* CS422LUITests.swift */; };
 		E4F1E93B25CB11AC00B89EE3 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F1E93A25CB11AC00B89EE3 /* Flashcard.swift */; };
 		E4F1E94325CB285800B89EE3 /* FlashcardSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F1E94225CB285800B89EE3 /* FlashcardSet.swift */; };
+		E4F1E94925CB293400B89EE3 /* FlashCardSetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F1E94825CB293400B89EE3 /* FlashCardSetDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		E419D7E525CB2F11002CFEB4 /* FlashcardSetCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardSetCollectionCell.swift; sourceTree = "<group>"; };
+		E419D7ED25CB384C002CFEB4 /* FlashcardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardTableViewCell.swift; sourceTree = "<group>"; };
 		E46D40C825C4AD280062C79E /* CS422L.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS422L.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46D40CB25C4AD280062C79E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E46D40CD25C4AD280062C79E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +60,7 @@
 		E46D40F225C4AD2A0062C79E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4F1E93A25CB11AC00B89EE3 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
 		E4F1E94225CB285800B89EE3 /* FlashcardSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardSet.swift; sourceTree = "<group>"; };
+		E4F1E94825CB293400B89EE3 /* FlashCardSetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardSetDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				E419D7E525CB2F11002CFEB4 /* FlashcardSetCollectionCell.swift */,
+				E419D7ED25CB384C002CFEB4 /* FlashcardTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				E46D40CF25C4AD280062C79E /* MainViewController.swift */,
+				E4F1E94825CB293400B89EE3 /* FlashCardSetDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -297,6 +303,8 @@
 				E46D40D025C4AD280062C79E /* MainViewController.swift in Sources */,
 				E4F1E94325CB285800B89EE3 /* FlashcardSet.swift in Sources */,
 				E4F1E93B25CB11AC00B89EE3 /* Flashcard.swift in Sources */,
+				E419D7EE25CB384C002CFEB4 /* FlashcardTableViewCell.swift in Sources */,
+				E4F1E94925CB293400B89EE3 /* FlashCardSetDetailViewController.swift in Sources */,
 				E46D40D625C4AD280062C79E /* CS422L.xcdatamodeld in Sources */,
 				E46D40CC25C4AD280062C79E /* AppDelegate.swift in Sources */,
 				E419D7E625CB2F11002CFEB4 /* FlashcardSetCollectionCell.swift in Sources */,
