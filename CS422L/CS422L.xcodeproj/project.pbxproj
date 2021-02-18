@@ -18,6 +18,8 @@
 		E46D40DB25C4AD290062C79E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46D40D925C4AD290062C79E /* LaunchScreen.storyboard */; };
 		E46D40E625C4AD290062C79E /* CS422LTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D40E525C4AD290062C79E /* CS422LTests.swift */; };
 		E46D40F125C4AD2A0062C79E /* CS422LUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D40F025C4AD2A0062C79E /* CS422LUITests.swift */; };
+		E482157125DEE4FE0077BF94 /* EditAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482157025DEE4FE0077BF94 /* EditAlertViewController.swift */; };
+		E482157625DEEC1F0077BF94 /* StudySetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482157525DEEC1F0077BF94 /* StudySetViewController.swift */; };
 		E4F1E93B25CB11AC00B89EE3 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F1E93A25CB11AC00B89EE3 /* Flashcard.swift */; };
 		E4F1E94325CB285800B89EE3 /* FlashcardSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F1E94225CB285800B89EE3 /* FlashcardSet.swift */; };
 		E4F1E94925CB293400B89EE3 /* FlashCardSetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F1E94825CB293400B89EE3 /* FlashCardSetDetailViewController.swift */; };
@@ -58,6 +60,8 @@
 		E46D40EC25C4AD2A0062C79E /* CS422LUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CS422LUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46D40F025C4AD2A0062C79E /* CS422LUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS422LUITests.swift; sourceTree = "<group>"; };
 		E46D40F225C4AD2A0062C79E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E482157025DEE4FE0077BF94 /* EditAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAlertViewController.swift; sourceTree = "<group>"; };
+		E482157525DEEC1F0077BF94 /* StudySetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySetViewController.swift; sourceTree = "<group>"; };
 		E4F1E93A25CB11AC00B89EE3 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
 		E4F1E94225CB285800B89EE3 /* FlashcardSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardSet.swift; sourceTree = "<group>"; };
 		E4F1E94825CB293400B89EE3 /* FlashCardSetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardSetDetailViewController.swift; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 			children = (
 				E46D40CF25C4AD280062C79E /* MainViewController.swift */,
 				E4F1E94825CB293400B89EE3 /* FlashCardSetDetailViewController.swift */,
+				E482157025DEE4FE0077BF94 /* EditAlertViewController.swift */,
+				E482157525DEEC1F0077BF94 /* StudySetViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -303,6 +309,8 @@
 				E46D40D025C4AD280062C79E /* MainViewController.swift in Sources */,
 				E4F1E94325CB285800B89EE3 /* FlashcardSet.swift in Sources */,
 				E4F1E93B25CB11AC00B89EE3 /* Flashcard.swift in Sources */,
+				E482157125DEE4FE0077BF94 /* EditAlertViewController.swift in Sources */,
+				E482157625DEEC1F0077BF94 /* StudySetViewController.swift in Sources */,
 				E419D7EE25CB384C002CFEB4 /* FlashcardTableViewCell.swift in Sources */,
 				E4F1E94925CB293400B89EE3 /* FlashCardSetDetailViewController.swift in Sources */,
 				E46D40D625C4AD280062C79E /* CS422L.xcdatamodeld in Sources */,
@@ -487,6 +495,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Y6Y878LJF;
 				INFOPLIST_FILE = CS422L/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,6 +515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Y6Y878LJF;
 				INFOPLIST_FILE = CS422L/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

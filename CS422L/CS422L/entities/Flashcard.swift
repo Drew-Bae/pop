@@ -10,6 +10,7 @@ import Foundation
 class Flashcard {
     var term: String = ""
     var definition: String = ""
+    var missed: Bool = false
     
     static func getHardCodedCollection() -> [Flashcard]
     {

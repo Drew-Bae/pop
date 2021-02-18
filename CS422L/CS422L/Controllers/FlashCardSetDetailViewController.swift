@@ -41,7 +41,28 @@ class FlashCardSetDetailViewController: UIViewController, UITableViewDelegate, U
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CardCell", for: indexPath) as! FlashcardTableViewCell
         cell.flashcardLabel.text = cards[indexPath.row].term
+        cell.selectionStyle = .none
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let alert = UIAlertController(title: "\(cards[indexPath.row].term)", message: "\(cards[indexPath.row].definition)", preferredStyle: .alert)
+
+        alert.addAction(UIAlertAction(title: "Edit", style: .default, handler: {_ in
+            self.createCustomAlert(card: self.cards[indexPath.row])
+        }))
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        self.present(alert, animated: true)
+    }
+    
+    func createCustomAlert(card: Flashcard)
+    {
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let alertVC = sb.instantiateViewController(identifier: "EditAlertViewController") as! EditAlertViewController
+        alertVC.parentVC = self
+        alertVC.card = card
+        alertVC.modalPresentationStyle = .overCurrentContext
+        self.present(alertVC, animated: false, completion: nil)
     }
     
     //just a function to make everything look nice
